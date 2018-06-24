@@ -1,0 +1,29 @@
+Hello
+
+I have updated same on my blog too: https://medium.com/@gajbhiyedeepanshu/week-2-google-summer-of-code-with-debian-9c32d2248d63
+
+Mentors and I agreed on this format of reporting. Also, got permission to report on Sunday instead of Friday.
+
+This was an engaging week. I spend a lot of time with the project this week. Most days I used to work around 10-14 hours with the project. But I don’t think I was able to deliver work worth of that much time. So let's say it was not a very much productive week. Here are all the sections requested
+
+What I did last week?
+Initially I started with revising bash scripting and vagrant. Then I started working on issue #5[1] shell provisioner to install LTSP server to ubuntu trusty. For this I first created a vagrant box and setup the network part. Since this is the recommended approach. Created a bridged adapter,promiscuous mode allow all. After that I did a vagrant ssh into the box and ran all the commands manually. Surprisingly it worked. I was able to boot from ltsp server. Then I started working on the shell provisioner for the same. Only error that came was during installation of ltsp-client. I was not able to fix it at first. but, after googling for hours I found the solution. Then provisioner went smooth. Created a pull request for it #14[2]. Got to know about git commit guidelines from one of the mentor After suggestions I ran same provisioner shell script with ubuntu bionic and installation went smooth. After this, I worked on issue #17[3] Added steps in shell provisioner to install ltsp-manager.
+I also updated the README.md file with installation, prerequisites and testing steps pull request 27[4]. Then I revised VBoxManage and wrote client.sh.Its a simple shell script that create ltsp clients. Will be adding Vagrantfile to create ltsp-client soon. Then I started with #29[5] since I knew I to solve 50% of the task. I thought I will be able to solve another 50% easily.
+I have been also interacting with LTSP and vagrant community. Telling them about the progress of my project.
+
+The problems that I could not solve
+I was struggling with #29[5] I was looking for a way to disable dhcp on ltsp server. All online solutions pointed towards editing etc/dnsmasq.conf which was not working. Then I realized I need to make changes in /etc/dnsmasq.d/ltsp-server-dnsmasq.conf. I will be able to solve this now. But wasted quite some time on this.
+I have created bash script that creates ltsp clients. But in #30[6] I have been told to do it with vagrant. I was having trouble with how to do network boot with vagrant box since it is not mentioned on the vagrant docs. But after looking some code samples on github I know how to solve this one.
+I was thinking of solving issue #28[7] this week. But I didn’t get time to take a proper look. Will try to solve it in the next week.
+
+Plans for next week
+I am planning to solve the first 2 problems that I couldn't do mentioned in above. Then I will complete the task for the week(install LTSP in Debian with Vagrant). After that, I will try to solve issue #28[7].
+
+[1]:https://github.com/docker-scripts/dev--LTSP/issues/5
+[2]:https://github.com/docker-scripts/dev--LTSP/pull/14
+[3]:https://github.com/docker-scripts/dev--LTSP/issues/17
+[4]:https://github.com/docker-scripts/dev--LTSP/pull/27
+[5]:https://github.com/docker-scripts/dev--LTSP/issues/29
+[6]:https://github.com/docker-scripts/dev--LTSP/pull/30
+[7]:https://github.com/docker-scripts/dev--LTSP/issues/28
+
