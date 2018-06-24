@@ -1,0 +1,9 @@
+Hello,
+
+I had my exams until this Friday. I already discussed that with my mentors. They told me I can start early in order to compensate for the days of exams. 
+
+That's why I started working on issue #6 [1]. I have completed the given books/guide for bash scripting. Will close the issue after a quick revision. Also, I did setup virtual LTSP server on Debian 9.  Now I am reading about Debian packaging and how to port ubuntu packages to Debian.
+
+[1]: https://github.com/docker-scripts/dev--LTSP/issues/6
+
+Regards

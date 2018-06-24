@@ -1,0 +1,39 @@
+Hello everyone,
+
+Here is what I did last week?
+- Converted regular dhcp server to proxy dhcp server to automatically reconfigure dnsmasq on boot[1]
+- Simplified client.sh. Almost 50% reduction in lines of code for bionic and buster branch[2]
+- Completed remaining work on client login problem[3]
+- Collected resource and joined mailing lists to study debian packaging[4]    
+- Worked on using virtual LTSP server with hostonly adapter. PR is approved but were looking for a better solution[5]
+- With some help from mentors found a better solution by using test.sh script that creates and deletes virtual adapter that can be used for LAN bridging[6]
+
+Problems I could not solve
+- Did not get time to read all resources on debian packaging.
+
+Plans for next week
+- Improve already written code.
+- Complete wiki page on how to troubleshoot from ltsp client[7]
+- Study debian packaging and port ubuntu-edu packages to debian[8][9]
+- Plan out what needs to be done to support raspberry pi clients by ltsp server and ltsp manager[10]
+
+Same has been updated on my blog post :
+https://medium.com/@gajbhiyedeepanshu/week-5-google-summer-of-code-with-debian-efd8e9c8da82
+
+Link to my project :
+https://github.com/docker-scripts/dev--LTSP
+
+regards
+Deepanshu
+
+[1] : https://github.com/docker-scripts/dev--LTSP/pull/46
+[2] : https://github.com/docker-scripts/dev--LTSP/pull/43
+[3] : https://github.com/docker-scripts/dev--LTSP/pull/42
+[4] : https://github.com/docker-scripts/dev--LTSP/issues/7
+[5] : https://github.com/docker-scripts/dev--LTSP/pull/48
+[6] : https://github.com/docker-scripts/dev--LTSP/pull/50
+
+[7] : https://github.com/docker-scripts/dev--LTSP/issues/49
+[8] : https://github.com/docker-scripts/dev--LTSP/issues/7
+[9] : https://github.com/docker-scripts/dev--LTSP/issues/3
+[10] : https://github.com/docker-scripts/dev--LTSP/issues/4
