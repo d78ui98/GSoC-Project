@@ -1,0 +1,31 @@
+Hello everyone,
+
+Here is what I did last week
+- made ltsp server flexible by added setting.sh configuration file
+- updated Vagrantfile to load IP address, network address from settings.sh
+- updated Vagrantfile to automatically detect network adapter connected to the internet [1]
+- updated provision script to get data from settings.sh [1]
+- wrote a wiki pages explaining modes of operation of LTSP and steps for manual testing [2]
+- created a lightweight dhcp server with vagrant for testing [3]
+- Installed ltsp in Debian stretch and buster release with Vagrant [4]
+
+The problems that I could not solve
+- For some reason, ltsp client is unable to boot from the server. Will try to fix that in this week
+- Work on a simpler way to build ltsp client for automated testing
+
+Plans for next week
+- fix ltsp client booting problem
+- work on building ltsp client for automated testing
+-Study Debian packaging
+- build a Debian package for ltsp-manager
+
+one can find detailed version of this on my blog post -
+https://medium.com/@gajbhiyedeepanshu/week-3-google-summer-of-code-with-debian-474a7834bd6d
+
+Regards
+deepanshu 
+
+[1] https://github.com/docker-scripts/dev--LTSP/pull/31
+[2] https://github.com/docker-scripts/dev--LTSP/wiki
+[3] https://github.com/docker-scripts/dev--LTSP/pull/35
+[4] https://github.com/docker-scripts/dev--LTSP/issues/34
