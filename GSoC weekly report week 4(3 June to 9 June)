@@ -1,0 +1,37 @@
+Hello everyone,
+
+Here is what I did last week?
+
+- Added NAT configuration and made some fixes on DHCP server[1][2] 
+- I was facing issues with Debian buster vagrant box also raised an issue about it. Later I was able to fix the issue myself. Maintainers were able to reproduce the problem and accepted my solution and wrote a how-to troubleshoot wiki page about it.[3]
+- Fixed the ltsp client login problem working on the PR to make it better.[4]
+- Also had a talk with vagrantc(creator of ltsp) on irc. Learned how to troubleshoot ltsp from client
+- Made some improvements in client.sh (Still working on making it even better)[4]
+- Added Vagrantfile, README.md, Provision script for debian buster.[5]
+- Also explored vagrant-cachier plugin to speed up testing process.
+
+Problems I could not solve
+- Still need to make some improvements in client.sh
+- Need to work on my bash scripting skills. Currently they are just OK
+
+Plans for next week
+- Will finish work with client.sh
+- Work on creating virtual network for ltsp server client and dhcp server for non standalone mode
+- Will start studying about Debian packaging
+- Then I will start with task decided for next week. Porting ubuntu-edu packages to Debian
+- Work on Automatic reconfiguration of dnsmasq for non standalone mode of operation
+
+one can find a detailed version of this report on my blog post:
+https://medium.com/@gajbhiyedeepanshu/week-4-google-summer-of-code-with-debian-b4446bf65e2e
+
+I am adding link to my project as Daniel Pocock suggested:
+https://github.com/docker-scripts/dev--LTSP
+
+regards
+deepanshu
+
+[1] : https://github.com/docker-scripts/dev--LTSP/pull/39
+[2] : https://github.com/docker-scripts/dev--LTSP/pull/38 
+[3] : https://github.com/fujimakishouten/vagrant-boxes/issues/1
+[4] : https://github.com/docker-scripts/dev--LTSP/pull/42
+[5] : https://github.com/docker-scripts/dev--LTSP/pull/40
