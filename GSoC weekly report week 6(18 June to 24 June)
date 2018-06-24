@@ -1,0 +1,50 @@
+What I did last week?
+- added `test.sh` script on buster branch that creates virtual interface[1]
+- made several improvements in `test.sh` script to create a virtual network in both buster and bionic branch[2][3][4]
+- Informed the maintainers about a minor bug in official ubuntu ltsp-pnp page. It is now fixed.
+- wrote wiki page on how to troubleshoot ltsp setup[5]
+- wrote a blog on how vagrantc(creator of ltsp) helped me fix the client login problem.[6]
+- studied about building Debian package from resources collected last week
+- wrote a script to automatically port and install ubuntu-edu packages to Debian(open PR and needs some improvements)[7]
+- Searched and tested the difference between ltsp-server and ltsp-server-standalone package[8]
+
+Problems I could not solve
+- deb folder currently has unnecessary files. Need to remove those.
+- did not get time to study how to support raspberry pi clients by ltsp server
+- finish up the work between differentiating both ltsp setups[8]
+- need to split testing wiki page into automated and manual testing pages
+- 
+
+Plans for next week
+- finish up the remaining work in mentioned in problem not solved
+- work on issues #58 #59 #60 #61 #62 #63 #64[9][10][11][12][13][14][15]
+- research on what needs to be done in ltsp-server to support RaspberryPi clients[16]
+- added more features to ltsp-manager[17]
+
+Same has been updated on my blog post:
+https://medium.com/@gajbhiyedeepanshu/week-6-google-summer-of-code-with-debian-9008a901c6de
+
+I have created a repo for all my reports and added link on my debian wiki page:
+https://wiki.debian.org/deepanshugajbhiye
+
+regards
+deepanshu
+
+[1] : https://github.com/docker-scripts/dev--LTSP/pull/52
+[2] : https://github.com/docker-scripts/dev--LTSP/pull/56
+[3] : https://github.com/docker-scripts/dev--LTSP/pull/55
+[4] : https://github.com/docker-scripts/dev--LTSP/pull/53
+[5] : https://github.com/docker-scripts/dev--LTSP/wiki/Troubleshooting
+[6] : https://medium.com/@gajbhiyedeepanshu/solving-ltsp-client-not-able-to-login-issue-50384c98efbc
+[7] : https://github.com/docker-scripts/dev--LTSP/pull/57
+[8] : https://github.com/docker-scripts/dev--LTSP/issues/51
+
+[9] : https://github.com/docker-scripts/dev--LTSP/issues/58
+[10] : https://github.com/docker-scripts/dev--LTSP/issues/59
+[11] : https://github.com/docker-scripts/dev--LTSP/issues/60
+[12] : https://github.com/docker-scripts/dev--LTSP/issues/61
+[13] : https://github.com/docker-scripts/dev--LTSP/issues/62
+[14] : https://github.com/docker-scripts/dev--LTSP/issues/63
+[15] : https://github.com/docker-scripts/dev--LTSP/issues/64
+[16] : https://github.com/docker-scripts/dev--LTSP/issues/4
+[17] : https://github.com/docker-scripts/dev--LTSP/issues/2
