@@ -1,0 +1,47 @@
+Hello everyone,
+
+Here is what I did last week?
+- Created fully functional `test.sh` script for testing. It will create virtual interface, startup ltsp-server, and dhcp server and then the client with a single command and destroy them with another command.[1]
+- Differentiated between ltsp-server and ltsp-server-standalone package by looking at package source[2]
+- Added GUI to vagrant box[3]
+- Several Improvements in `settings.sh` configuration file.[4]
+- Created a second troubleshooting page and testing plan. Mentor wrote a better testing plan for me [5]
+- Enabled debugging on all shell scripts[6]
+- Added `edu.sh` that creates Debian packages from a custom source of  and installs them to ltsp server vagrant box[7]
+
+Problems I could not solve
+- Working on Improving docs[8]
+- Tested internally and externally only. Have to test on real LAN[9]
+
+Plans for next week
+- Next week I am planning on testing according to testing plan and Fixing all the bugs that I find.[10]
+- Will be improving the docs[11]
+- Create custom vagrant box[12]
+- Explore and implement vagrant caching[13]
+
+Same has been updated on my blog post - 
+https://medium.com/@gajbhiyedeepanshu/week-7-google-summer-of-code-with-debian-dd545aba4ed0
+
+Link to the project - 
+https://github.com/docker-scripts/dev--LTSP
+
+Current state of the project can be tracked here -
+https://github.com/docker-scripts/dev--LTSP/projects/1
+
+regards
+deepanshu 
+
+[1] : https://github.com/docker-scripts/dev--LTSP/pull/67
+[2] : https://github.com/docker-scripts/dev--LTSP/issues/51
+[3] : https://github.com/docker-scripts/dev--LTSP/pull/65
+[4] : https://github.com/docker-scripts/dev--LTSP/pull/66
+[5] : https://github.com/docker-scripts/dev--LTSP/wiki
+[6] : https://github.com/docker-scripts/dev--LTSP/pull/70
+[7] : https://github.com/docker-scripts/dev--LTSP/pull/57
+
+[8] : https://github.com/docker-scripts/dev--LTSP/issues/64
+[9] : https://github.com/docker-scripts/dev--LTSP/issues/63
+[10] : https://github.com/docker-scripts/dev--LTSP/wiki/Testing-Plan
+[11] : https://github.com/docker-scripts/dev--LTSP/issues/63
+[12] : https://github.com/docker-scripts/dev--LTSP/issues/68
+[13] : https://github.com/docker-scripts/dev--LTSP/issues/69
