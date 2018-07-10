@@ -1,0 +1,34 @@
+This was interesting week was working on the project all the time in weekdays.
+
+Here is what I did last week?
+- Implemented vagarant cachier plugin to speed up testing, installation and configuration of ltsp setup[1]
+- Learned how to build vagrant box from scratch blog post and wiki page for the same[2][3]
+- Created a vagrant box and uploaded on vagrant cloud. Also released a second more compack version[4]
+- Fixed ltsp client login issue[5]
+- Added variable to settings.sh configuration file to add vagrant box instead of hardcoding it[6] 
+- Updated docs[7]
+- Added linux mint 19 xfce ltsp box[8]
+- Added testing steps, commands, etc in readme file[9]
+
+Problems I could not solve
+- Have to create packer scripts to automatically create vagrant boxes from iso[10]
+
+Plans for next week
+- Look into internal of docker script then work building a LTSP server container[11]
+- finsh pending tasks
+- implement autologin for ltsp clients[12]
+
+
+[1] : https://github.com/docker-scripts/dev--LTSP/pull/74 
+[2] : https://github.com/docker-scripts/dev--LTSP/wiki/Building-Custom-Vagrant-box
+[3] : https://medium.com/@gajbhiyedeepanshu/building-custom-vagrant-box-e6a846b6baca
+[4] : https://app.vagrantup.com/d78ui98/boxes/linuxmint-19-xfce-32bit
+[5] : https://github.com/docker-scripts/dev--LTSP/pull/73
+[6] : https://github.com/docker-scripts/dev--LTSP/pull/75
+[7] : https://github.com/docker-scripts/dev--LTSP/wiki
+[8] : https://github.com/docker-scripts/dev--LTSP/pull/76
+[9] : https://github.com/docker-scripts/dev--LTSP/pull/71
+
+[10] : https://github.com/docker-scripts/dev--LTSP/issues/77
+[11] : https://github.com/docker-scripts/dev--LTSP/issues/8
+[12] : https://github.com/docker-scripts/dev--LTSP/issues/78
