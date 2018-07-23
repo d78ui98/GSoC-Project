@@ -1,0 +1,23 @@
+Here is what I did last week?
+- Implemented `auto_config` feature in `Vagrantfile`[1]
+- Made several changes in provisioner script to adapt to the newer version of ltsp[1]
+- Fixed DNS issue in ltsp setup[2]
+- Added guest-login and auto-login functionality in ltsp server for ltsp client[3]
+- Improving the Debian Edu packages for uploading them to mentors.debian.net
+
+Problems I could not solve
+- Still, need to make some improvements in Debian Edu packages before uploading them
+
+Plans for next week
+- Upload the packages to mentor.debian.net[4]
+- Create scripts to automatically build vagrant boxes[5]
+- Create a script to manage bulk user accounts[6]
+- Then I will start with testing again, improve documentation to make final upload of code to google
+
+[1] : https://github.com/docker-scripts/dev--LTSP/pull/86
+[2] : https://github.com/docker-scripts/dev--LTSP/pull/84
+[3] : https://github.com/docker-scripts/dev--LTSP/pull/87
+
+[4] : https://github.com/docker-scripts/dev--LTSP/issues/80
+[5] : https://github.com/docker-scripts/dev--LTSP/issues/77
+[6] : https://github.com/docker-scripts/dev--LTSP/issues/79 
