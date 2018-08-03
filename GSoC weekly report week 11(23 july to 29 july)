@@ -1,0 +1,40 @@
+Hello everyone,
+
+Here is what I did last week?
+For most of the time in the week I was working on building packer template linux mint 19[1]
+updated readme file[1]
+Added education packages to debian edu. Improved primaryschool package[2]
+Released vagrant box version 1.0.2[3]
+Made some changes in virtual ltsp project to adapt to version 1.0.2[3]
+Studied how to use reportbug and filed bug (severity: wishlist) using it.
+All the improvments that were made in bionic branch are now made in buster branch as well[4]
+Added script to manager user accounts in bulk[5]
+
+Problems I could not solve
+I had to wait for bug to get reported to merge the packages[6]
+
+Plans for next week
+Improve documentation
+Work on buster branch[7]
+Test everything to make sure everything works as expected[8]
+Same has been updated on my blog post:
+https://medium.com/@gajbhiyedeepanshu/week-11-google-summer-of-code-with-debian-e8a245ac15e6
+
+Link to my project:
+https://github.com/docker-scripts/dev--LTSP
+
+Current state of the project can be tracked here:
+https://github.com/docker-scripts/dev--LTSP/projects/1
+
+regards
+deepanshu
+
+[1] : https://github.com/docker-scripts/dev--LTSP/pull/88
+[2] : https://salsa.debian.org/debian-edu/debian-edu/merge_requests/1
+[3] : https://github.com/docker-scripts/dev--LTSP/pull/90
+[4] : https://github.com/docker-scripts/dev--LTSP/pull/93
+[5] : https://github.com/docker-scripts/dev--LTSP/pull/91
+
+[6] : https://github.com/docker-scripts/dev--LTSP/issues/80
+[7] : https://github.com/docker-scripts/dev--LTSP/issues/92
+[8] : https://github.com/docker-scripts/dev--LTSP/issues/63
