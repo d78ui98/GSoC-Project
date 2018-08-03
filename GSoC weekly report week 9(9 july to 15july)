@@ -1,0 +1,36 @@
+Hello Everyone,
+
+Here is what I did last week
+Most of the time week was devoted for testing the entire project in various distribution, cases, and environment. 
+Also tried using Virtual ltsp server with 10 virtual clients on real LAN.
+Next task to do was fix the issues found. One such issue was fixing IP address issue caused by switching to linux mint.[1]
+Another issue was the internet was not working on ltsp client. Fixed that one[2]
+
+Problems I could not solve
+Didn't get time to work on autologin and to write packer script to create vagrant box. As a lot of time was given to testing. 
+Still trying to work on auto_config of the network part of Vagrantfile
+Plans for next week
+Implement networking in Vagrantfile with auto_config[3]
+More testing[4]
+Work on autologin feature[5]
+Write packer script to create vagrant box[6]
+
+Same has been updated on my blog post:
+https://medium.com/@gajbhiyedeepanshu/week-9-google-summer-of-code-with-debian-d288d8e2b1c1
+
+Link to my project:
+https://github.com/docker-scripts/dev--LTSP
+
+Current state of the project can be tracked here:
+https://github.com/docker-scripts/dev--LTSP/projects/1
+
+regards
+deepanshu
+
+[1] : https://github.com/docker-scripts/dev--LTSP/pull/81
+[2] : https://github.com/docker-scripts/dev--LTSP/pull/84
+
+[3] : https://github.com/docker-scripts/dev--LTSP/issues/83
+[4] : https://github.com/docker-scripts/dev--LTSP/issues/63
+[5] : https://github.com/docker-scripts/dev--LTSP/issues/78
+[6] : https://github.com/docker-scripts/dev--LTSP/issues/77
