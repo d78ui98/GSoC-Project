@@ -1,0 +1,33 @@
+Here is what I did last week
+Made enhancements on buster branch[1]
+   added auto-config feature
+   enabled autologin and guestlogin
+   More functionality to test.sh
+Enhancements in `accounts.sh` script to manage user accounts in bulk.[2]
+Created a bug report as a request to merge the edu packages that I created[3]
+Provided dhcp range to dhcp server for testing[4][5]
+Updated documentation[6]
+Removed vagrant-cachier plugin, enabled dns[7]
+We are also trying to involve the other students that wanted to work on this project[8]
+
+Plans for next week and after
+Merge request, bug report for education packages is made. Will remove script to use them internally as soon as it is merged.
+Will update vagrant box for linux mint tara after a new release.
+Same has been updated on my blog post:
+https://medium.com/@gajbhiyedeepanshu/week-12-google-summer-of-code-with-debian-784b0742fab9
+
+Link to my project:
+https://github.com/docker-scripts/dev--LTSP
+
+regards
+deepanshu
+
+[1] : https://github.com/docker-scripts/dev--LTSP/pull/93
+[2] : https://github.com/docker-scripts/dev--LTSP/pull/91
+[3] : https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=905006
+[4] : https://github.com/docker-scripts/dev--LTSP/pull/99
+[5] : https://github.com/docker-scripts/dev--LTSP/pull/97
+[6] : https://github.com/docker-scripts/dev--LTSP/pull/95
+[7] : https://github.com/docker-scripts/dev--LTSP/pull/96
+[8] : https://github.com/docker-scripts/dev--LTSP/issues/18#issuecomment-410494342
+
